@@ -1,0 +1,5 @@
+[run]
+include = ghibil/*
+omit = *migrations*, *tests*, *wsgi.py*
+plugins =
+    django_coverage_plugin
