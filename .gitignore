@@ -340,4 +340,4 @@ media/
 
 # abtin
 .idea
-
+db.sqlite3
