@@ -1,9 +1,9 @@
+from logging import getLogger
+
 import requests
 
 from django.utils.translation import gettext_lazy as _
 from rest_framework.exceptions import APIException
-
-from logging import getLogger
 
 
 logger = getLogger("ghibli_web_service")
