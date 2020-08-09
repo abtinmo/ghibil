@@ -1,9 +1,9 @@
 """
 Base settings to build other settings files upon.
 """
-from pathlib import Path
-
 import os
+
+from pathlib import Path
 
 import environ
 
@@ -51,7 +51,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": os.path.join(ROOT_DIR, "db.sqlite3"),
-    }
+    },
 }
 # URLS
 # -----------------------------------------------------------------------------
@@ -131,3 +131,4 @@ CACHES = {
         },
     },
 }
+STATIC_URL = "/static/"
