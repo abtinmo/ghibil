@@ -1,13 +1,10 @@
 -r ./base.txt
 
-psycopg2-binary==2.8.4  # https://github.com/psycopg/psycopg2
-
-
 # Code quality
 # ------------------------------------------------------------------------------
 flake8==3.7.9  # https://github.com/PyCQA/flake8
 coverage==5.0.4  # https://github.com/nedbat/coveragepy
-
+isort==5.3.2
 
 # Django
 # ------------------------------------------------------------------------------
